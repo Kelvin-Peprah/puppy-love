@@ -88,12 +88,13 @@ a {
     flex-flow: column wrap;
     background-color: #898c91;
     max-width: 350px;
-    height: 100px;
+    height: 200px;
 }
 
 .mid-text {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: center;
 }
 
 #section-2 {
