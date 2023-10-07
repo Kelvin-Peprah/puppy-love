@@ -1,10 +1,13 @@
-
+p {
+    margin: 0;
+}
 #header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
+    padding: 0 20px;
 }
 
 .header-logo {
@@ -31,16 +34,20 @@ a {
     display: flex;
     justify-content: center;
     height: 400px;
+    padding: 5px 5px;
+    margin-bottom: 0;
 }
 
 .section-preview {
+    display: flex;
+    flex-flow: column wrap;
     width: 400px;
-    height: 400px;
 }
 
 .section-title {
     font: 48px extrabold;
     color: #f9faf8;
+    margin-bottom: 5px;
 }
 
 #section-info {
@@ -53,10 +60,11 @@ a {
     background-color: #3882f6;
     font-size: 18px;
     color: #f9faf8;
-    padding: 5px 30px;
+    padding: 5px 10px;
     border: none;
     border-radius: 10px;
-    
+    margin-top: 15px;
+    width: 120px;
 }
 
 .button-1:hover {
@@ -71,28 +79,26 @@ a {
     align-items: center;
     justify-content: center;
     width: 400px;
-    height: 400px;
-    
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
     background-color: #898c91;
-    height: 200px;
-    width: 400px;
-    margin-left: 20px;
+    max-width: 350px;
+    height: 100px;
 }
 
 .mid-text {
-    color: #f9faf8;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 #section-2 {
-    height: 400px;
+    height: 500px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -100,18 +106,22 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 15px;
 }
 
 #grid-box {
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
+    flex: 150px,150px;
     column-gap: 35px;
+    row-gap: 15px;
 }
 
 .box {
-    
     cursor: pointer;
+    width: 150px;
 }
 
 .div-box {
@@ -125,4 +135,76 @@ a {
     color: #1f2937;
     font-size: 18px;
     text-align: center;
+}
+
+#section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.quote-div {
+    width: 400px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.author {
+    text-align: end;
+    margin-top: 0;
+}
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 600px;
+    padding: 40px 70px;
+    border-radius: 10px;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 5px 30px;
+    border: 2px solid white;
+    border-radius: 10px;   
+}
+
+.button-2:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-text {
+    color: #f9faf8;
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 90px;
+}
+
+.f-text {
+    color: #e5e7eb;
 }
