@@ -1,3 +1,4 @@
+
 #header {
     display: flex;
     flex-direction: row;
@@ -29,7 +30,7 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 400px;
 }
 
 .section-preview {
@@ -88,4 +89,30 @@ a {
     color: #f9faf8;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#section-2 {
+    height: 400px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#grid-box {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    background-color: #1f2937;
+    justify-content: center;
+   
+
+}
+.div-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    
 }
