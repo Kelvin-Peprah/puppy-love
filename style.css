@@ -99,20 +99,30 @@ a {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
+    color: #1f2937;
 }
 
 #grid-box {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
-    background-color: #1f2937;
     justify-content: center;
-   
-
+    column-gap: 35px;
 }
+
+.box {
+    
+    cursor: pointer;
+}
+
 .div-box {
-    width: 100px;
-    height: 100px;
+    width: 148px;
+    height: 148px;
     border: 2px solid #3882f6;
     border-radius: 10px;
-    
+}
+
+.box-text {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
 }
