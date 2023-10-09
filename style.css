@@ -40,7 +40,7 @@ a {
     justify-content: center;
     margin-top: 0;
     gap: 20px;
-    padding-bottom: 50px;
+    padding: 15px 30px 50px 30px;
 }
 
 .section-preview {
@@ -120,6 +120,7 @@ img {
     justify-content: center;
     column-gap: 15px;
     row-gap: 10px;
+    padding-bottom: 100px;
 }
 
 .box {
