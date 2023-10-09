@@ -8,10 +8,9 @@ p {
 #header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #1f2937;
-    padding: 0 20px;
     margin-bottom: 0;
 }
 
@@ -63,7 +62,7 @@ a {
     color: #f9faf8;
     font-size: 18px;
     color: #e5e7eb;
-    text-align: center;
+    text-align: justify;
 }
 
 .button-1 {
@@ -147,10 +146,13 @@ img {
 }
 
 .quote-div {
-    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .quote {
+    text-align: justify;
+    width: 300px;
     color: #1f2937;
     font-size: 18px;
     margin-bottom: 0;
@@ -170,8 +172,9 @@ img {
 
 .blue {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 10px;
     background-color: #3882f6;
     width: 600px;
     padding: 40px 70px;
@@ -196,6 +199,7 @@ img {
 .section-text {
     color: #f9faf8;
     padding-left: 10px;
+    text-align: justify;
 }
 
 footer {
