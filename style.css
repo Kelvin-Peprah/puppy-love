@@ -46,6 +46,7 @@ a {
 .section-preview {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
     width: 400px;
 }
 
@@ -81,7 +82,6 @@ a {
 
 .section-preview-container {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 400px;
 }
@@ -98,7 +98,8 @@ img {
 }
 
 #section-2 {
-    height: 500px;
+    display: flex;
+    flex-flow: column;
     margin-bottom: 20px;
 }
 
@@ -114,7 +115,6 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
     column-gap: 15px;
     row-gap: 10px;
 }
