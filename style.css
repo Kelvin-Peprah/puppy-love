@@ -52,10 +52,11 @@ a {
 }
 
 .section-title {
+    width: 300px;
     font: 38px extrabold;
     color: #f9faf8;
     margin-bottom: 5px;
-    text-align: center;
+    text-align: start;
 }
 
 #section-info {
