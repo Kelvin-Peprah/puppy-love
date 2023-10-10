@@ -98,7 +98,7 @@ a {
 }
 
 img {
-    width: 200px;
+    width: 300px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -130,7 +130,7 @@ img {
 }
 
 .box {
-    width: 200px;
+    width: 300px;
     border: none;
     border-radius: 15px;
     background-color: #e5e7eb;
@@ -145,7 +145,6 @@ img {
 .box-text {
     color: #1f2937;
     font-size: 18px;
-    width: 180px;
     text-align: center;
     padding: 0 10px;
 }
