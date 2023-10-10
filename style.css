@@ -99,6 +99,11 @@ a {
 
 img {
     width: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.puppy {
+    border-radius: 15px;
 }
 
 #section-2 {
@@ -112,7 +117,7 @@ img {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 #grid-box {
@@ -220,9 +225,4 @@ footer {
 
 .f-text {
     color: #e5e7eb;
-}
-
-img 
-{
-    border-radius: 15px 15px 0 0;
 }
