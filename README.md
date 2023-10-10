@@ -105,7 +105,7 @@
         </ol>
 
         <h2 id="license">License</h2>
-        <p>The Puppy Love Website is released under the <a href="LICENSE">Puppy love License</a>. Feel free to use, modify, and distribute it according to the terms of the license.</p>
+        <p>The Puppy Love Website is released under the <a href="#">Puppy love License</a>. Feel free to use, modify, and distribute it according to the terms of the license.</p>
 
         <p>Thank you for visiting the Puppy Love Website, and we hope you enjoy your stay! If you have any questions or suggestions, please don't hesitate to get in touch with us.</p>
 
