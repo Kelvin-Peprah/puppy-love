@@ -12,10 +12,12 @@ p {
     align-items: center;
     background-color: #1f2937;
     margin-bottom: 0;
+    border: none;
 }
 
 .logo {
-    width: 90px;
+    width: 70px;
+    height: 70px;
 }
 
 ul {
@@ -40,7 +42,8 @@ a {
     justify-content: center;
     margin-top: 0;
     gap: 20px;
-    padding: 15px 30px 50px 30px;
+    padding: 30px 30px 50px 30px;
+    border-top: none;
 }
 
 .section-preview {
