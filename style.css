@@ -174,11 +174,14 @@ img {
 .quote-div {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 30px;
 }
 
 .quote {
     text-align: justify;
-    width: 300px;
     color: #1f2937;
     font-size: 18px;
     margin-bottom: 0;
