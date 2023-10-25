@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +18,11 @@ p {
     background-color: #1f2937;
     margin-bottom: 0;
     border: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
